@@ -1,0 +1,10 @@
+<div class="pure-menu pure-menu-horizontal">
+	<ul class="pure-menu-list">
+		<% if(!currentUser){%>
+		<li class="pure-menu-item"><a href="/auth/login">Login</a></li>
+		<li class="pure-menu-item"><a href="/auth/signup">Sign Up</a></li>
+		<% } else { %>
+		<li class="pure-menu-item"><a href="/auth/logout">Logout</a></li>
+		<% } %>
+	</ul>
+</div>
