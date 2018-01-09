@@ -2,9 +2,15 @@
 <form method="post" action="/auth/login">
 	<form class="pure-form">
 		<fieldset>
-			<input type="email" placeholder="email">
-			<input type="password" placeholder="password">
+			<input type="email" name="email" placeholder="email">
+			<input type="password" name="password" placeholder="password">
 			<button type="submit" id="loginbutton" class="pure-button pure-button-primary">Submit</button>
 		</fieldset>
 	</form>
 </form>
+
+<hr>
+
+<a href="/auth/facebook" class="pure button pure-button-primary">
+	Login via Facebook
+</a>
